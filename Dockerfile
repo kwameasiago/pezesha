@@ -33,6 +33,7 @@ RUN apt-get update && \
   xfonts-wqy \
   # clean up
   && rm -rf /var/lib/apt/lists/*
+  
 RUN npm install --save-dev cypress
 # install app dependencies
 COPY package.json ./

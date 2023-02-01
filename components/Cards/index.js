@@ -10,7 +10,7 @@ import {trancString} from '../../utils';
 
 
 const CharacterCard = ({item, handleMore})  => {
-    const {name,description, comics ,stories, series,events, thumbnail: {path, extension}} = item;
+    const {name, comics ,stories, series,events, thumbnail: {path, extension}} = item;
   return (
     <Fragment>
     <Card sx={{ maxWidth: 445 }}>
