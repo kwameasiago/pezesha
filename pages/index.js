@@ -80,22 +80,17 @@ export default function Home() {
     api.get(url)
       .then(res => {
         const { data: { data: { results, total, limit } } } = res;
-        console.log(results)
         dispatch({ type: 'CHARACTERS', payload: { results, total, limit } });
 
         setisLoader(false)
       })
       .catch(error => {
-        console.log(error)
         setisLoader(false)
       })
   }, [charactersSearch, offset])
   const handleMore = (item) => () => {
-    console.log('called')
     setItem(item);
     setModal(true)
-
-    console.log(item)
   }
 
   return (

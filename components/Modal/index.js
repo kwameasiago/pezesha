@@ -39,7 +39,7 @@ const BasicModal = ({open, handleClose,content }) => {
         return Object.keys(arr[0])
     }
 
-    console.log(keys(comicsItems))
+
   return (
     <div>
       <Modal
