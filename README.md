@@ -16,6 +16,9 @@ git clone this repository then follow the instructions listed below
 4. Run `docker-compose up -d` to run in detached mode
 5. To view the logs run `docker-compose logs -f`
 
+## Usage
+[loom video](https://www.loom.com/share/39854ea5bfbd49e7a92db53f7f5e86a3)
+
 
 
 ## Deployment link
